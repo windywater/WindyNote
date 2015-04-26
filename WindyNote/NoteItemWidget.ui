@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NoteItemWidget</class>
+ <widget class="QWidget" name="NoteItemWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>257</width>
+    <height>92</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>NoteItemWidget</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="m_subjectLabel">
+     <property name="text">
+      <string>subject</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="m_dateLabel">
+     <property name="text">
+      <string>date</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="m_contentLabel">
+     <property name="text">
+      <string>content</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,127 @@
+/* style sheet */
+
+#MainWindowClass {
+	border: 1px solid blue;
+	background-color: #fff;
+}
+
+#m_logo {
+    font: bold italic 18px "Consolas";
+    color: #ddd;
+}
+
+#m_headContainer {
+    background-color: #4397df;
+}
+
+#m_createNoteButton {
+	background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+#m_createNoteButton:hover {
+    background-color: #51c854;
+}
+
+#m_subjectEdit {
+	font: 16px "Microsoft Yahei";
+}
+
+/* min button */
+#m_minButton {
+	border-image: url(:/WindyNote/images/min.png) 0 0 32 0 stretch stretch;
+	border-width: 0;
+}
+
+#m_minButton:hover {
+	border-image: url(:/WindyNote/images/min.png) 16 0 16 0 stretch stretch;
+}
+
+#m_minButton:pressed {
+	border-image: url(:/WindyNote/images/min.png) 32 0 0 0 stretch stretch;
+}
+
+/* max button */
+#m_maxButton {
+	border-image: url(:/WindyNote/images/max.png) 0 0 32 0 stretch stretch;
+	border-width: 0;
+}
+
+#m_maxButton:hover {
+	border-image: url(:/WindyNote/images/max.png) 16 0 16 0 stretch stretch;
+}
+
+#m_maxButton:pressed {
+	border-image: url(:/WindyNote/images/max.png) 32 0 0 0 stretch stretch;
+}
+
+/* restore button */
+#m_restoreButton {
+	border-image: url(:/WindyNote/images/restore.png) 0 0 32 0 stretch stretch;
+	border-width: 0;
+}
+
+#m_restoreButton:hover {
+	border-image: url(:/WindyNote/images/restore.png) 16 0 16 0 stretch stretch;
+}
+
+#m_restoreButton:pressed {
+	border-image: url(:/WindyNote/images/restore.png) 32 0 0 0 stretch stretch;
+}
+
+/* close button */
+#m_closeButton {
+	border-image: url(:/WindyNote/images/close.png) 0 0 32 0 stretch stretch;
+	border-width: 0;
+}
+
+#m_closeButton:hover {
+	border-image: url(:/WindyNote/images/close.png) 16 0 16 0 stretch stretch;
+}
+
+#m_closeButton:pressed {
+	border-image: url(:/WindyNote/images/close.png) 32 0 0 0 stretch stretch;
+}
+
+
+#m_noteFolderTree {
+    show-decoration-selected: 0;
+}
+
+#m_noteFolderTree::item {
+    height: 30px;
+    padding-left: 8px;
+    color: #333;
+    border: none;
+}
+
+#m_noteFolderTree::item:hover {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #e7effd, stop: 1 #cbdaf1);
+    border: 1px solid #bfcde4;
+}
+
+#m_noteFolderTree::item:selected {
+    color: #333;
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #a5effd, stop: 1 #cbeef1);
+    border: none;
+}
+
+#m_noteList::item {
+    border-bottom: 1px solid #c1c1c1;
+}
+
+#m_noteList::item:hover {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #e7effd, stop: 1 #cbdaf1);
+    border: 1px solid #bfcde4;
+}
+
+#m_noteList::item:selected {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #a5effd, stop: 1 #cbeef1);
+}
+
+
+
+
